@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananda School Bekasi - Quality Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/icons/favicon.ico">
+    <meta name="description" content="Ananda School Bekasi provides quality education with a holistic approach for students from kindergarten to junior high school.">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/images/logo.png" alt="Ananda School Logo" width="50" height="50">
+                <span data-lang="school-name">Ananda School Bekasi</span>
+            </a>
+            
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home" data-lang="nav-home">Home</a></li>
+                    <li><a href="#about" data-lang="nav-about">About</a></li>
+                    <li><a href="#programs" data-lang="nav-programs">Programs</a></li>
+                    <li><a href="#facilities" data-lang="nav-facilities">Facilities</a></li>
+                    <li><a href="#news" data-lang="nav-news">News</a></li>
+                    <li><a href="#contact" data-lang="nav-contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button id="language-toggle" class="language-toggle">
+                    <span class="lang-code">EN</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="language-dropdown">
+                    <button data-lang="en">English</button>
+                    <button data-lang="id">Bahasa Indonesia</button>
+                </div>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 data-lang="hero-title">Quality Education for Future Leaders</h1>
+            <p data-lang="hero-subtitle">Nurturing minds, inspiring hearts, building character</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary" data-lang="hero-btn-learn">Learn More</a>
+                <a href="#contact" class="btn btn-secondary" data-lang="hero-btn-contact">Contact Us</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-lang="about-title">About Our School</h2>
+                <p class="subtitle" data-lang="about-subtitle">Our history and philosophy</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-lang="about-text-1">Founded in 2005, Ananda School Bekasi has established itself as a leading educational institution in the region, combining academic excellence with character development.</p>
+                    <p data-lang="about-text-2">Our holistic approach to education ensures that students not only excel academically but also develop strong moral values, creativity, and critical thinking skills.</p>
+                    <ul class="about-features">
+                        <li data-lang="about-feature-1"><i class="fas fa-check-circle"></i> Certified and experienced teachers</li>
+                        <li data-lang="about-feature-2"><i class="fas fa-check-circle"></i> Modern teaching methods</li>
+                        <li data-lang="about-feature-3"><i class="fas fa-check-circle"></i> Character building programs</li>
+                        <li data-lang="about-feature-4"><i class="fas fa-check-circle"></i> Safe and nurturing environment</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/about.jpg" alt="Ananda School Building" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="section programs">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-lang="programs-title">Our Educational Programs</h2>
+                <p class="subtitle" data-lang="programs-subtitle">Comprehensive curriculum for all ages</p>
+            </div>
+            
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3 data-lang="program-kindergarten">Kindergarten</h3>
+                    <p data-lang="program-kindergarten-desc">Play-based learning for ages 4-6 focusing on social, emotional, and cognitive development.</p>
+                    <a href="#" class="btn btn-outline" data-lang="program-btn-details">Details</a>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3 data-lang="program-elementary">Elementary School</h3>
+                    <p data-lang="program-elementary-desc">Comprehensive curriculum with emphasis on foundational skills and character education.</p>
+                    <a href="#" class="btn btn-outline" data-lang="program-btn-details">Details</a>
+                </div>
+                
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 data-lang="program-junior">Junior High School</h3>
+                    <p data-lang="program-junior-desc">Academic preparation with focus on critical thinking and leadership development.</p>
+                    <a href="#" class="btn btn-outline" data-lang="program-btn-details">Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="section facilities">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-lang="facilities-title">Our Facilities</h2>
+                <p class="subtitle" data-lang="facilities-subtitle">Modern learning environment</p>
+            </div>
+            
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="assets/images/library.jpg" alt="School Library" loading="lazy">
+                    </div>
+                    <div class="facility-content">
+                        <h3 data-lang="facility-library">Modern Library</h3>
+                        <p data-lang="facility-library-desc">Well-stocked with books, digital resources, and quiet study areas.</p>
+                    </div>
+                </div>
+                
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="assets/images/lab.jpg" alt="Science Lab" loading="lazy">
+                    </div>
+                    <div class="facility-content">
+                        <h3 data-lang="facility-lab">Science Laboratories</h3>
+                        <p data-lang="facility-lab-desc">Fully equipped labs for physics, chemistry, and biology experiments.</p>
+                    </div>
+                </div>
+                
+                <div class="facility-card">
+                    <div class="facility-image">
+                        <img src="assets/images/sports.jpg" alt="Sports Facilities" loading="lazy">
+                    </div>
+                    <div class="facility-content">
+                        <h3 data-lang="facility-sports">Sports Facilities</h3>
+                        <p data-lang="facility-sports-desc">Basketball court, soccer field, and indoor sports facilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section news">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-lang="news-title">Latest News</h2>
+                <p class="subtitle" data-lang="news-subtitle">Updates from our school</p>
+            </div>
+            
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250" alt="News Image" loading="lazy">
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-06-15" data-lang="news-date-1">June 15, 2023</time>
+                        <h3 data-lang="news-title-1">Annual Science Fair Winners</h3>
+                        <p data-lang="news-excerpt-1">Our students won three awards at the regional science competition...</p>
+                        <a href="#" class="read-more" data-lang="news-read">Read More</a>
+                    </div>
+                </article>
+                
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250" alt="News Image" loading="lazy">
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-05-28" data-lang="news-date-2">May 28, 2023</time>
+                        <h3 data-lang="news-title-2">New Computer Lab Opening</h3>
+                        <p data-lang="news-excerpt-2">Our school has inaugurated a new computer lab with 30 workstations...</p>
+                        <a href="#" class="read-more" data-lang="news-read">Read More</a>
+                    </div>
+                </article>
+                
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250" alt="News Image" loading="lazy">
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-05-10" data-lang="news-date-3">May 10, 2023</time>
+                        <h3 data-lang="news-title-3">Teacher Training Program</h3>
+                        <p data-lang="news-excerpt-3">Our teachers completed advanced training in modern pedagogy...</p>
+                        <a href="#" class="read-more" data-lang="news-read">Read More</a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="section-footer">
+                <a href="#" class="btn btn-primary" data-lang="news-view-all">View All News</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-lang="contact-title">Contact Us</h2>
+                <p class="subtitle" data-lang="contact-subtitle">We'd love to hear from you</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3 data-lang="contact-address-title">Address</h3>
+                            <p data-lang="contact-address">Jl. Pendidikan No. 123, Bekasi Timur, Indonesia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3 data-lang="contact-phone-title">Phone</h3>
+                            <p>+62 21 1234 5678</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3 data-lang="contact-email-title">Email</h3>
+                            <p>info@anandaschool.sch.id</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3 data-lang="contact-hours-title">Office Hours</h3>
+                            <p data-lang="contact-hours-weekdays">Monday-Friday: 7:00 AM - 4:00 PM</p>
+                            <p data-lang="contact-hours-saturday">Saturday: 8:00 AM - 12:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required data-lang="contact-form-name" data-lang-placeholder="contact-form-name-ph">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required data-lang="contact-form-email" data-lang-placeholder="contact-form-email-ph">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" data-lang="contact-form-phone" data-lang-placeholder="contact-form-phone-ph">
+                    </div>
+                    <div class="form-group">
+                        <select id="subject" name="subject" required data-lang="contact-form-subject">
+                            <option value="" disabled selected data-lang="contact-form-subject-ph">Select a subject</option>
+                            <option value="admission" data-lang="contact-form-subject-1">Admission Inquiry</option>
+                            <option value="academic" data-lang="contact-form-subject-2">Academic Questions</option>
+                            <option value="facilities" data-lang="contact-form-subject-3">Facilities Inquiry</option>
+                            <option value="other" data-lang="contact-form-subject-4">Other Questions</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required data-lang="contact-form-message" data-lang-placeholder="contact-form-message-ph"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-lang="contact-form-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <a href="#" class="footer-logo">
+                        <img src="assets/images/logo.png" alt="Ananda School Logo" width="50" height="50">
+                        <span data-lang="school-name">Ananda School Bekasi</span>
+                    </a>
+                    <p data-lang="footer-about">Providing quality education since 2005 with a focus on academic excellence and character development.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 data-lang="footer-links-title">Quick Links</h3>
+                    <ul>
+                        <li><a href="#home" data-lang="nav-home">Home</a></li>
+                        <li><a href="#about" data-lang="nav-about">About</a></li>
+                        <li><a href="#programs" data-lang="nav-programs">Programs</a></li>
+                        <li><a href="#facilities" data-lang="nav-facilities">Facilities</a></li>
+                        <li><a href="#contact" data-lang="nav-contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 data-lang="footer-programs-title">Programs</h3>
+                    <ul>
+                        <li><a href="#" data-lang="program-kindergarten">Kindergarten</a></li>
+                        <li><a href="#" data-lang="program-elementary">Elementary School</a></li>
+                        <li><a href="#" data-lang="program-junior">Junior High School</a></li>
+                        <li><a href="#" data-lang="footer-extracurricular">Extracurricular</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 data-lang="footer-contact-title">Contact</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-lang="contact-address">Jl. Pendidikan No. 123, Bekasi Timur</span></li>
+                        <li><i class="fas fa-phone-alt"></i> +62 21 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@anandaschool.sch.id</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-lang="footer-copyright">&copy; 2023 Ananda School Bekasi. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#" data-lang="footer-privacy">Privacy Policy</a>
+                    <a href="#" data-lang="footer-terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
